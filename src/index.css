@@ -33,32 +33,6 @@ header {
 
 }
 
-.blog-card {
-  border-radius: .5rem;
-  overflow: hidden;
-  box-shadow: 1px 0px 6px 1px rgb(73, 73, 73);
-
-  img {
-    text-align: center;
-    background-color: lightgray;
-    margin: auto;
-    margin: 0;
-    object-fit: cover;
-
-  }
-}
-
-
-
-.blog-description {
-  background-color: white;
-  margin-top: -.25rem;
-  padding: 1rem 1rem;
-
-  .description {
-    padding: 1rem 0;
-  }
-}
 
 .btn {
   text-decoration: none;
