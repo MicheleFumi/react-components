@@ -9,7 +9,9 @@ img {
 }
 
 main {
-  height: calc(100vh - 120px);
+  /* height: calc(100vh - 200px); */
+  padding-bottom: 5rem;
+  padding-top: 2rem;
 }
 
 main,
@@ -34,6 +36,7 @@ header {
 .blog-card {
   border-radius: .5rem;
   overflow: hidden;
+  box-shadow: 1px 0px 6px 1px rgb(73, 73, 73);
 
   img {
     text-align: center;
@@ -64,4 +67,22 @@ header {
   border-radius: .5rem;
   background-color: orange;
   color: white;
+
+  &:hover {
+    background-color: #c27f03;
+    color: white;
+  }
+
+}
+
+footer {
+  background-color: rgb(41, 40, 40);
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+
+  .container {
+    width: 80%;
+    margin: auto;
+  }
 }
