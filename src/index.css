@@ -9,14 +9,14 @@ img {
 }
 
 main {
-  /* height: calc(100vh - 200px); */
+
   padding-bottom: 5rem;
   padding-top: 2rem;
 }
 
 main,
 header {
-  background-color: grey;
+  background-color: rgb(173, 169, 169);
 }
 
 
