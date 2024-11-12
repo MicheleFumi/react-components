@@ -1,4 +1,5 @@
 import style from './card.module.css'
+import button from '../button/button.jsx'
 
 export default function postCard() {
 
@@ -12,8 +13,7 @@ export default function postCard() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cumque ipsam nihil, ipsa debitis reiciendis in facere, cum et numquam aliquid modi error.
                     Iste aliquid eligendi nulla, fuga quis laboriosam!
                 </div>
-                <button className="btn">LEGGI DI PIU'</button>
-
+                <button />
             </div>
         </div>
 
