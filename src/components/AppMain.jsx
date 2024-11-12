@@ -4,14 +4,12 @@ export default function AppMain() {
 
 
         <main>
-            <div className="container">
+            <div className="container-main">
                 <div className="blog-card">
-                    <div className="blog-img">
-                        <div className="img-size">600 X 400</div>
-                    </div>
+                    <img src="https://image-placeholder.com/images/actual-size/600x400.png" alt="" />
                     <div className="blog-description">
                         <h3>Titolo del post</h3>
-                        <div>
+                        <div className="description">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis cumque ipsam nihil, ipsa debitis reiciendis in facere, cum et numquam aliquid modi error.
                             Iste aliquid eligendi nulla, fuga quis laboriosam!
                         </div>

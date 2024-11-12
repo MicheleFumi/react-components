@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+main {
+  height: calc(100vh - 120px);
+}
+
+main,
+header {
+  background-color: grey;
+}
+
+
+header {
+  h1 {
+    padding: 2rem;
+    text-align: center;
+  }
+}
+
+.container-main {
+  width: 30%;
+  margin: auto;
+
+}
+
+.blog-card {
+  border-radius: .5rem;
+  overflow: hidden;
+
+  img {
+    text-align: center;
+    background-color: lightgray;
+    margin: auto;
+    margin: 0;
+    object-fit: cover;
+
+  }
+}
+
+
+
+.blog-description {
+  background-color: white;
+  margin-top: -.25rem;
+  padding: 1rem 1rem;
+
+  .description {
+    padding: 1rem 0;
+  }
+}
+
+.btn {
+  text-decoration: none;
+  border: none;
+  padding: 1rem;
+  border-radius: .5rem;
+  background-color: orange;
+  color: white;
+}
