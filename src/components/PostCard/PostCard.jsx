@@ -2,9 +2,10 @@ import style from './card.module.css'
 import Button from '../button/button.jsx'
 
 
-export default function postCard({ data }) {
+export default function PostCard({ data }) {
 
     return (
+
 
         <div className={style.blogCard}>
             <img src={data.image} alt="" />
@@ -13,7 +14,10 @@ export default function postCard({ data }) {
                 <div className={style.description}>
                     {data.content}
                 </div>
-                {data.tags}
+                <div className="tag">{data.tags[0]}</div>
+                <div className="tag">{data.tags[1]}</div>
+
+
                 <Button />
 
             </div>
