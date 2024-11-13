@@ -1,4 +1,5 @@
 import PostCard from './PostCard/PostCard'
+import posts from '../data/post.js'
 
 
 export default function AppMain() {
@@ -8,7 +9,7 @@ export default function AppMain() {
 
         <main>
             <div className="container-main">
-                <PostCard />
+                {posts.map(post => <PostCard key={post.id} data={post} />)}
             </div>
 
 
